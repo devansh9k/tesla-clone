@@ -1,0 +1,61 @@
+.Wrap{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../public/images/model-s.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ItemText{
+    padding: 15vh;
+    text-align: center;
+
+}
+
+.buttonGrp{
+    display: flex;
+    margin-bottom: 30px;
+
+   
+}
+
+@media (max-width: 768px) {
+    .buttonGrp{
+        flex-direction: column;
+       
+    }
+}
+
+.Leftbutton, .Rightbutton{
+    background-color: rgba(23, 26, 28, 0.8);
+    height: 40px;
+    width: 256px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    opacity: 0.85;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 20px;
+    margin-top: 5px;
+}
+
+.Rightbutton{
+    background-color:white;
+    opacity: 0.65;
+    color: black;
+
+}
+
+.downArrow{
+    height: 40px;
+    animation: animateDown infinite 1.5s;
+}
